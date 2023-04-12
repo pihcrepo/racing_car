@@ -7,7 +7,6 @@ let write = document.getElementById('write')
 let write2 = document.getElementById('write2')
 let countPoints = 0
 
-
 yellowCar.addEventListener('animationiteration', function () {
     let random = Math.floor(Math.random() * 3) * 113 + 32
     yellowCar.style.left = random + 'px'
@@ -20,7 +19,6 @@ redCar.addEventListener('animationiteration', function () {
     countPoints++
     write.innerHTML = 'Points : ' + countPoints
 })
-
 
 window.onkeydown = function (key) {
     if (key.keyCode == 37) {

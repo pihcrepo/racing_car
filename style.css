@@ -1,6 +1,7 @@
 body{
     background: url(image/background.jpg);
     background-size: cover;
+    
 }
 #write{
     width: 250px;
